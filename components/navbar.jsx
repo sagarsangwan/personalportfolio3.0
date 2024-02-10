@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="items-center max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link href="/">
-                        <h1 className="text-3xl font-bold">
+                        <h1 className=" text-xl md:text-3xl font-bold">
                             <span className="text-green-500">{name1}</span>
                             <span >{name2}</span>
                             <span className="text-green-500">{name3}</span>
