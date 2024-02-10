@@ -56,7 +56,7 @@ function Skills() {
     return (
         <>
             <div className='flex  mb-10 justify-center flex-wrap'>
-                <Button variant='secondary' size='lg' className='mt-4'>skills</Button>
+                <Button variant='secondary' size='sm' className='mt-4'>skills</Button>
             </div>
             <div className='flex  mb-10 justify-center flex-wrap'>
                 <p className=' justify-center flex-wrap'>
