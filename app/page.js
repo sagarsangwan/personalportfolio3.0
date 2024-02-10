@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Aboutme from "@/components/aboutme";
+import Experience from "@/components/experience";
 
 import Skills from "@/components/skills";
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Aboutme />
       <Skills />
+      <Experience />
     </main>
   );
 }
