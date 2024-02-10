@@ -4,12 +4,12 @@ import { Button } from "./ui/button"
 function Aboutme() {
     return (
         <div className='grid grid-cols-6 gap-3 '>
-            <div className='bg-blue-100 col-span-5  md:col-span-2 '>
+            <div className=' my-auto mx-auto col-span-5  md:col-span-2 '>
                 <Image height={200} width={280} alt="" src={'/images/profile.jpg'} />
             </div>
             <div className='col-span-5  md:col-span-4 '>
                 <div className=' '>
-                    <div className="mb-3">
+                    <div className="mb-3 flex justify-center md:justify-start">
                         <Button variant='secondary' size='sm' className='px-4'>Aboutme</Button>
                     </div>
                     <div>
