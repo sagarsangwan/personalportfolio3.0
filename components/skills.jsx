@@ -58,7 +58,7 @@ function Skills() {
             <div className='flex  mb-10 justify-center flex-wrap'>
                 <Button variant='secondary' size='sm' className='mt-4'>skills</Button>
             </div>
-            <div className='flex  mb-10 justify-center flex-wrap'>
+            <div className='flex justify-center flex-wrap'>
                 <p className=' justify-center flex-wrap'>
                     <span className='text-xl text-green-500'>The skills, tools and technologies I am good at </span>
                 </p>
@@ -68,9 +68,9 @@ function Skills() {
                 {
                     Skills.map((value, idx) => {
                         return (
-                            <Card key={idx} >
+                            <Card className="border-0" key={idx} >
                                 <CardContent className="px-8 py-4 justify-center flex flex-col">
-                                    <Image width={40} className='mx-auto' height={40} alt='' src={value.thumbnailUrl} />
+                                    <Image width={20} className='mx-auto' height={40} alt='' src={value.thumbnailUrl} />
                                     <p className='justify-center flex'>{value.title}</p>
                                 </CardContent>
                             </Card>)
