@@ -18,7 +18,7 @@ function Hero() {
         </p>
       </div>
       <div className=' sm:w-1/2 mx-auto my-auto flex justify-center '>
-        <div className='relative h-52 w-60 md:h-96 md:w-full my-auto mb-36' >
+        <div className='relative h-52 w-60 md:h-96 md:w-full xl:h-96 xl:w-full my-auto mb-36' >
           <Image src="/images/robot.png"
             // width={300}
             // height={300}
