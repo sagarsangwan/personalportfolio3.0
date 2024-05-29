@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Aboutme from "@/components/aboutme";
 import Experience from "@/components/experience";
-
+import { ContactUs } from "@/components/contactUs";
 import Skills from "@/components/skills";
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       <Aboutme />
       <Skills />
       <Experience />
+      <ContactUs />
     </main>
   );
 }

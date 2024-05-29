@@ -37,10 +37,10 @@ export const ContactUs = () => {
 
             <form ref={form} onSubmit={sendEmail}>
 
-                <Label htmlFor="user_name">Name</Label>
-                <Input type="text" name="user_name" />
-                <Label htmlFor="user_email">Email</Label>
-                <Input type="email" name="user_email" />
+                <Label htmlFor="from_name">Name</Label>
+                <Input type="text" name="from_name" />
+                <Label htmlFor="from_name">Email</Label>
+                <Input type="email" name="from_name" />
                 <Label htmlFor="message">Message</Label>
                 <Textarea name="message" />
                 <Button type="submit" value="Send" >Send</Button>
