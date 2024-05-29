@@ -33,19 +33,24 @@ export const ContactUs = () => {
             );
     };
     return (
-        <div className='justify-center  pb-32'>
+        <div>
+            <div className="mb-3 flex justify-center ">
+                <Button variant='secondary' size='sm' className='px-4'>Contact Me</Button>
+            </div>
+            <div className='justify-center  pb-32'>
 
-            <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail}>
 
-                <Label htmlFor="from_name">Name</Label>
-                <Input type="text" name="from_name" />
-                <Label htmlFor="from_name">Email</Label>
-                <Input type="email" name="from_name" />
-                <Label htmlFor="message">Message</Label>
-                <Textarea name="message" />
-                <Button type="submit" value="Send" >Send</Button>
-            </form>
+                    <Label htmlFor="from_name">Name</Label>
+                    <Input type="text" name="from_name" />
+                    <Label className=" pt-3 mt-3" htmlFor="user_email">Email</Label>
+                    <Input type="email" name="user_email" />
+                    <Label htmlFor="message">Message</Label>
+                    <Textarea name="message" />
+                    <Button type="submit" value="Send" >Send</Button>
+                </form>
 
+            </div>
         </div>
     );
 };

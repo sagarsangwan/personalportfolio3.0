@@ -26,7 +26,7 @@ function Experience() {
         <div className='justify-center flex pb-32'>
             <div className=' '>
                 <div className="mb-3 flex justify-center ">
-                    <Button variant='secondary' size='sm' className='px-4'>Aboutme</Button>
+                    <Button variant='secondary' size='sm' className='px-4'>Experience</Button>
                 </div>
                 <div className=' '>
                     <p className=' flex justify-center text-xl  md:text-3xl text-green-500 mb-3'>
